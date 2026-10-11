@@ -49,9 +49,9 @@ Config / Embedding
 ---
 ## 实现计划及完成进度
 
-| 步骤 | 名称 | 位置 |
+| 步骤 | 名称 | 状态 |
 | --- | --- | --- |
-| 1 | Config 与 Token Embedding | 未完成 |
+| 1 | Config 与 Token Embedding | 进行中（Config 已完成） |
 | 2 | RMSNorm | 未完成 |
 | 3 | SwiGLU MLP | 未完成 |
 | 4 | 基础 Causal Attention | 未完成 |
