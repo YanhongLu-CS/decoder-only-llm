@@ -1,0 +1,12 @@
+[project]
+name = "decoder-only-llm"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
