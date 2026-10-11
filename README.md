@@ -53,8 +53,8 @@ Config / Embedding
 | --- | --- | --- |
 | 1 | Config 与 Token Embedding | 已完成 · [`qwen/config.py`](qwen/config.py) · [`qwen/embedding.py`](qwen/embedding.py) |
 | 2 | RMSNorm | 已完成 · [`qwen/norm.py`](qwen/norm.py) |
-| 3 | SwiGLU MLP | 进行中 · [`qwen/mlp.py`](qwen/mlp.py) |
-| 4 | 基础 Causal Attention | 未完成 · [`qwen/attention.py`](qwen/attention.py) |
+| 3 | SwiGLU MLP | 已完成 · [`qwen/mlp.py`](qwen/mlp.py) |
+| 4 | 基础 Causal Attention | 进行中 · [`qwen/attention.py`](qwen/attention.py) |
 | 5 | RoPE | 未完成 · [`qwen/rope.py`](qwen/rope.py) |
 | 6 | GQA 与完整 Attention | 未完成 · [`qwen/attention.py`](qwen/attention.py) |
 | 7 | Decoder Block | 未完成 · [`qwen/block.py`](qwen/block.py) |
