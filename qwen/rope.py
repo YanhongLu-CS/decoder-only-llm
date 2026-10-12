@@ -26,7 +26,7 @@ class RotaryEmbedding(nn.Module):
         head_dim = config.hidden_size // config.num_attention_heads
 
         # 旋转频率[D // 2]
-        exponent = torch.arange(0, head_dim, 2) / head_dim
+        exponent = torch.arange(0, head_dim, 2, dtype=torch.float32,) / head_dim
         inverse_frequency = 1.0 / (config.rope_theta ** exponent)
         self.register_buffer("inverse_frequency", inverse_frequency, persistent = False)
 
