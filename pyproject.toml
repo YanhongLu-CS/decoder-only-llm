@@ -3,7 +3,11 @@ name = "decoder-only-llm"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "huggingface-hub>=2.2.0",
+    "numpy>=2.5.4",
+    "safetensors>=0.8.0",
     "torch>=2.14.1",
+    "transformers>=5.19.0",
 ]
 
 [dependency-groups]
